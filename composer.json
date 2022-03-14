@@ -1,0 +1,14 @@
+{
+    "name": "douggonsouza/discovery",
+    "description": "Framework php de propósito genérico",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Douglas Gonçalves de Souza",
+            "email": "douggonsouza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
