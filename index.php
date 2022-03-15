@@ -8,6 +8,6 @@
 
 session_start();
 
-include(__DIR__.'/src/folders.php');
+include(__DIR__.'/src/init.php');
 
 ?>
