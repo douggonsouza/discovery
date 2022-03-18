@@ -4,15 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee81cf3d401f0dd72a764167af2a5c6b",
-    "packages": [],
+    "content-hash": "e75cd48fb2f2add6acacbdae51f8fda4",
+    "packages": [
+        {
+            "name": "douggonsouza/request",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/request.git",
+                "reference": "26605e378f8b4696ba9cece607350d1fcee80e64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/request/zipball/26605e378f8b4696ba9cece607350d1fcee80e64",
+                "reference": "26605e378f8b4696ba9cece607350d1fcee80e64",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\request\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Tratamento da requisição e coleta de parâmetros para o roteamento",
+            "support": {
+                "issues": "https://github.com/douggonsouza/request/issues",
+                "source": "https://github.com/douggonsouza/request/tree/v1.0.3"
+            },
+            "time": "2022-03-18T11:30:49+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "douggonsouza/request": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.2"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }
