@@ -9,7 +9,8 @@ session_start();
  */
 
 use douggonsouza\request\usages;
-use douggonsouza\request\routes;
+use douggonsouza\request\routings;
+use douggonsouza\request\dicionary;
 use douggonsouza\request\requested;
 
 // configs
@@ -17,6 +18,7 @@ include_once __DIR__ . '/vendor/autoload.php';
 include_once __DIR__. '/src/init.php';
 
 // routing
-requested::usages(new usages())->parameters(routes::get());
+requested::usages(new usages(new dicionary()))->parameters(routings::get());
+requested::routing();
 die();
 ?>
