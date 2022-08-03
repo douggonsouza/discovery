@@ -39,11 +39,11 @@ ini_set('display_startup_errors', 1);
 ini_set('display_errors', 1);
 
 // configs
+define('BASE_DIR', __DIR__);
 include_once __DIR__ . '/vendor/autoload.php';
 include_once __DIR__. '/src/init.php';
 
 // routing
-
 requested::routing(requested::usages(new usages(new dicionary(), routings::get())));
 die();
 ?>

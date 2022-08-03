@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "bcc5c046d0fcf7d0e29ec5f469ebc10fe99e24c9"
+                "reference": "d234b4b53c2144f4af534bb6e3ca1aa62b6f0f93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/bcc5c046d0fcf7d0e29ec5f469ebc10fe99e24c9",
-                "reference": "bcc5c046d0fcf7d0e29ec5f469ebc10fe99e24c9",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/d234b4b53c2144f4af534bb6e3ca1aa62b6f0f93",
+                "reference": "d234b4b53c2144f4af534bb6e3ca1aa62b6f0f93",
                 "shasum": ""
             },
             "require": {
@@ -43,22 +43,22 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.8"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.9"
             },
-            "time": "2022-08-03T14:57:06+00:00"
+            "time": "2022-08-03T17:04:50+00:00"
         },
         {
             "name": "douggonsouza/language",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/language.git",
-                "reference": "27adeac208381e04edbc5b54239d433e9fd7d76c"
+                "reference": "fe361ddc095ece1ad7824db9c9a7671522b4cff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/language/zipball/27adeac208381e04edbc5b54239d433e9fd7d76c",
-                "reference": "27adeac208381e04edbc5b54239d433e9fd7d76c",
+                "url": "https://api.github.com/repos/douggonsouza/language/zipball/fe361ddc095ece1ad7824db9c9a7671522b4cff0",
+                "reference": "fe361ddc095ece1ad7824db9c9a7671522b4cff0",
                 "shasum": ""
             },
             "type": "library",
@@ -80,9 +80,9 @@
             "description": "Expõe o valor da etiqueta para uma linguagem",
             "support": {
                 "issues": "https://github.com/douggonsouza/language/issues",
-                "source": "https://github.com/douggonsouza/language/tree/v1.0.2"
+                "source": "https://github.com/douggonsouza/language/tree/v1.0.3"
             },
-            "time": "2022-08-03T12:49:50+00:00"
+            "time": "2022-08-03T16:35:38+00:00"
         },
         {
             "name": "douggonsouza/mvc",
@@ -242,16 +242,16 @@
         },
         {
             "name": "douggonsouza/routes",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/routes.git",
-                "reference": "da8f6101ba14646be152ea99963e22c1d9887d6a"
+                "reference": "f9b01ca755bf499349bcc67e489570949167b399"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/da8f6101ba14646be152ea99963e22c1d9887d6a",
-                "reference": "da8f6101ba14646be152ea99963e22c1d9887d6a",
+                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/f9b01ca755bf499349bcc67e489570949167b399",
+                "reference": "f9b01ca755bf499349bcc67e489570949167b399",
                 "shasum": ""
             },
             "require": {
@@ -276,9 +276,9 @@
             "description": "Gerenciamento das rotas para a requisição",
             "support": {
                 "issues": "https://github.com/douggonsouza/routes/issues",
-                "source": "https://github.com/douggonsouza/routes/tree/v1.0.5"
+                "source": "https://github.com/douggonsouza/routes/tree/v1.0.6"
             },
-            "time": "2022-08-02T00:39:07+00:00"
+            "time": "2022-08-03T16:38:31+00:00"
         }
     ],
     "packages-dev": [],

@@ -7,6 +7,7 @@ use douggonsouza\propertys\propertys;
 use douggonsouza\mvc\model\connection\conn;
 use douggonsouza\benchmarck\benchmarck;
 use douggonsouza\benchmarck\identify;
+use douggonsouza\language\language;
 
 /** conexão com o banco */
 conn::connection('localhost','douggonsouza','Ds@468677','discovery');
@@ -21,8 +22,10 @@ $identify::add('dashboard', null, '/layouts/dashboard.phtml');
 /** roteamento da requisição */
 router::usages(requested::getUsages(), new propertys(array()));
 router::dicionary(new dicionary());
-router::benchmarck(new benchmarck());
-$benchmarck = router::getBenchmarck();
+$benchmarck = router::benchmarck(new benchmarck(new language(array(array(
+    'local' => BASE_DIR . '/vendor/douggonsouza/benchmarck/vendor/douggonsouza/language/src/pt-br.php',
+    'language' => 'pt-br'
+)))));
 $benchmarck::setIdentify($identify);
 
 router::routing('GET', '/', "\\discovery\\controls\\login");
