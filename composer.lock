@@ -4,24 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9487029983502e50f11309afb9a3e4bd",
+    "content-hash": "261164701c705d92dd7112f27c469b67",
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.2",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "9e238c8f5599e0b534aa1fd13f180d387ca8f387"
+                "reference": "bcc5c046d0fcf7d0e29ec5f469ebc10fe99e24c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/9e238c8f5599e0b534aa1fd13f180d387ca8f387",
-                "reference": "9e238c8f5599e0b534aa1fd13f180d387ca8f387",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/bcc5c046d0fcf7d0e29ec5f469ebc10fe99e24c9",
+                "reference": "bcc5c046d0fcf7d0e29ec5f469ebc10fe99e24c9",
                 "shasum": ""
             },
             "require": {
-                "douggonsouza/propertys": "dev-main"
+                "douggonsouza/language": "^1.0.0",
+                "douggonsouza/propertys": "^1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -42,26 +43,60 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.2"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.8"
             },
-            "time": "2022-08-02T00:37:11+00:00"
+            "time": "2022-08-03T14:57:06+00:00"
         },
         {
-            "name": "douggonsouza/mvc",
-            "version": "v1.0.3",
+            "name": "douggonsouza/language",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/douggonsouza/mvc.git",
-                "reference": "060e25d9682475ef6ae1346ac3123e66b3a7ff47"
+                "url": "https://github.com/douggonsouza/language.git",
+                "reference": "27adeac208381e04edbc5b54239d433e9fd7d76c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/060e25d9682475ef6ae1346ac3123e66b3a7ff47",
-                "reference": "060e25d9682475ef6ae1346ac3123e66b3a7ff47",
+                "url": "https://api.github.com/repos/douggonsouza/language/zipball/27adeac208381e04edbc5b54239d433e9fd7d76c",
+                "reference": "27adeac208381e04edbc5b54239d433e9fd7d76c",
                 "shasum": ""
             },
-            "require": {
-                "douggonsouza/propertys": "dev-main"
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\language\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Expõe o valor da etiqueta para uma linguagem",
+            "support": {
+                "issues": "https://github.com/douggonsouza/language/issues",
+                "source": "https://github.com/douggonsouza/language/tree/v1.0.2"
+            },
+            "time": "2022-08-03T12:49:50+00:00"
+        },
+        {
+            "name": "douggonsouza/mvc",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/mvc.git",
+                "reference": "1d2716fa0a843286ceb9fb2cbec13855d5129bd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/1d2716fa0a843286ceb9fb2cbec13855d5129bd6",
+                "reference": "1d2716fa0a843286ceb9fb2cbec13855d5129bd6",
+                "shasum": ""
             },
             "type": "library",
             "autoload": {
@@ -82,53 +117,13 @@
             "description": "Processo de resposta tipo Model, View e Control",
             "support": {
                 "issues": "https://github.com/douggonsouza/mvc/issues",
-                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.3"
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.0"
             },
-            "time": "2022-08-02T00:38:16+00:00"
-        },
-        {
-            "name": "douggonsouza/pages",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/douggonsouza/pages.git",
-                "reference": "7d503d8941f6d210b5f392876a7ac20554016b0c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/pages/zipball/7d503d8941f6d210b5f392876a7ac20554016b0c",
-                "reference": "7d503d8941f6d210b5f392876a7ac20554016b0c",
-                "shasum": ""
-            },
-            "require": {
-                "douggonsouza/propertys": "dev-main"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "douggonsouza\\pages\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Douglas Gonçalves de Souza",
-                    "email": "douggonsouza@gmail.com"
-                }
-            ],
-            "description": "Preenchimento automático para página de marcação",
-            "support": {
-                "issues": "https://github.com/douggonsouza/pages/issues",
-                "source": "https://github.com/douggonsouza/pages/tree/v1.0.2"
-            },
-            "time": "2022-04-02T16:52:53+00:00"
+            "time": "2022-03-26T20:37:32+00:00"
         },
         {
             "name": "douggonsouza/propertys",
-            "version": "dev-main",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/propertys.git",
@@ -140,7 +135,6 @@
                 "reference": "be8f49f5311e5818e9d534cc45ba0786f8df3319",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
