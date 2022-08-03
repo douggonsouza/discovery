@@ -86,17 +86,20 @@
         },
         {
             "name": "douggonsouza/mvc",
-            "version": "v1.0.0",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/mvc.git",
-                "reference": "1d2716fa0a843286ceb9fb2cbec13855d5129bd6"
+                "reference": "0ae7135164c77ab52f932b669ef6c78e6f0ea7b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/1d2716fa0a843286ceb9fb2cbec13855d5129bd6",
-                "reference": "1d2716fa0a843286ceb9fb2cbec13855d5129bd6",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/0ae7135164c77ab52f932b669ef6c78e6f0ea7b4",
+                "reference": "0ae7135164c77ab52f932b669ef6c78e6f0ea7b4",
                 "shasum": ""
+            },
+            "require": {
+                "douggonsouza/propertys": "^1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -117,9 +120,9 @@
             "description": "Processo de resposta tipo Model, View e Control",
             "support": {
                 "issues": "https://github.com/douggonsouza/mvc/issues",
-                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.0"
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.4"
             },
-            "time": "2022-03-26T20:37:32+00:00"
+            "time": "2022-08-03T15:26:07+00:00"
         },
         {
             "name": "douggonsouza/propertys",
