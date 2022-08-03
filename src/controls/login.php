@@ -12,12 +12,12 @@ class login extends act implements actInterface
 
     public function main(propertysInterface $info)
     {
-        return $this->layout('/default.phtml', $info);
+        return $this->identified('dashboard', $info);
     }
 
     public function loginFrame(propertysInterface $info)
     {
-        return $this->block('/login/loginFrame.phtml');
+        return $this->identified('login', $info);
     }
 }
 ?>

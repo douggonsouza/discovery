@@ -12,12 +12,11 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2",
-        "douggonsouza/request": "dev-main",
-        "douggonsouza/routes": "dev-main",
-        "douggonsouza/pages": "dev-main",
-        "douggonsouza/mvc": "dev-main",
-        "douggonsouza/sentinel": "dev-main",
-        "douggonsouza/benchmarck": "dev-main"
+        "douggonsouza/request": "^1.0",
+        "douggonsouza/routes": "^1.0",
+        "douggonsouza/pages": "^1.0",
+        "douggonsouza/mvc": "^1.0",
+        "douggonsouza/benchmarck": "^1.0"
     },
     "autoload": {
         "psr-4": {

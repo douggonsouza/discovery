@@ -4,26 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9c98b849bff305f5e0cecf8e53062c7",
+    "content-hash": "9487029983502e50f11309afb9a3e4bd",
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "dev-main",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "139c66515fc68b2c0169c89edd7cac34b35a569d"
+                "reference": "9e238c8f5599e0b534aa1fd13f180d387ca8f387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/139c66515fc68b2c0169c89edd7cac34b35a569d",
-                "reference": "139c66515fc68b2c0169c89edd7cac34b35a569d",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/9e238c8f5599e0b534aa1fd13f180d387ca8f387",
+                "reference": "9e238c8f5599e0b534aa1fd13f180d387ca8f387",
                 "shasum": ""
             },
             "require": {
                 "douggonsouza/propertys": "dev-main"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -43,28 +42,27 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.1"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.2"
             },
-            "time": "2022-04-02T16:58:01+00:00"
+            "time": "2022-08-02T00:37:11+00:00"
         },
         {
             "name": "douggonsouza/mvc",
-            "version": "dev-main",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/mvc.git",
-                "reference": "35f2e0b9336bc02d0b859667ecfd278e0ac08dbc"
+                "reference": "060e25d9682475ef6ae1346ac3123e66b3a7ff47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/35f2e0b9336bc02d0b859667ecfd278e0ac08dbc",
-                "reference": "35f2e0b9336bc02d0b859667ecfd278e0ac08dbc",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/060e25d9682475ef6ae1346ac3123e66b3a7ff47",
+                "reference": "060e25d9682475ef6ae1346ac3123e66b3a7ff47",
                 "shasum": ""
             },
             "require": {
                 "douggonsouza/propertys": "dev-main"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -84,13 +82,13 @@
             "description": "Processo de resposta tipo Model, View e Control",
             "support": {
                 "issues": "https://github.com/douggonsouza/mvc/issues",
-                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.2"
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.3"
             },
-            "time": "2022-04-02T16:55:47+00:00"
+            "time": "2022-08-02T00:38:16+00:00"
         },
         {
             "name": "douggonsouza/pages",
-            "version": "dev-main",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/pages.git",
@@ -105,7 +103,6 @@
             "require": {
                 "douggonsouza/propertys": "dev-main"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -135,12 +132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/propertys.git",
-                "reference": "754ea9d11263e484272de7edfd66e8bbebaeedeb"
+                "reference": "be8f49f5311e5818e9d534cc45ba0786f8df3319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/754ea9d11263e484272de7edfd66e8bbebaeedeb",
-                "reference": "754ea9d11263e484272de7edfd66e8bbebaeedeb",
+                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/be8f49f5311e5818e9d534cc45ba0786f8df3319",
+                "reference": "be8f49f5311e5818e9d534cc45ba0786f8df3319",
                 "shasum": ""
             },
             "default-branch": true,
@@ -163,9 +160,9 @@
             "description": "Armazenagem das propriedades",
             "support": {
                 "issues": "https://github.com/douggonsouza/propertys/issues",
-                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.2"
+                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.3"
             },
-            "time": "2022-04-02T16:50:56+00:00"
+            "time": "2022-04-17T02:10:09+00:00"
         },
         {
             "name": "douggonsouza/regexed",
@@ -207,23 +204,22 @@
         },
         {
             "name": "douggonsouza/request",
-            "version": "dev-main",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/request.git",
-                "reference": "bb5c0f433fd124020b395f43cbb00c227727e5c7"
+                "reference": "8356e42cb89886d0f15672f77c18819044a3fca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/request/zipball/bb5c0f433fd124020b395f43cbb00c227727e5c7",
-                "reference": "bb5c0f433fd124020b395f43cbb00c227727e5c7",
+                "url": "https://api.github.com/repos/douggonsouza/request/zipball/8356e42cb89886d0f15672f77c18819044a3fca4",
+                "reference": "8356e42cb89886d0f15672f77c18819044a3fca4",
                 "shasum": ""
             },
             "require": {
                 "douggonsouza/regexed": "dev-main",
                 "php": "^7.2"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -243,28 +239,27 @@
             "description": "Tratamento da requisição e coleta de parâmetros para o roteamento",
             "support": {
                 "issues": "https://github.com/douggonsouza/request/issues",
-                "source": "https://github.com/douggonsouza/request/tree/v1.0.6"
+                "source": "https://github.com/douggonsouza/request/tree/v1.0.7"
             },
-            "time": "2022-04-02T16:40:04+00:00"
+            "time": "2022-04-15T15:39:57+00:00"
         },
         {
             "name": "douggonsouza/routes",
-            "version": "dev-main",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/routes.git",
-                "reference": "874be0f0923c9cb2fafbe3ab00b09e19b6f20117"
+                "reference": "da8f6101ba14646be152ea99963e22c1d9887d6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/874be0f0923c9cb2fafbe3ab00b09e19b6f20117",
-                "reference": "874be0f0923c9cb2fafbe3ab00b09e19b6f20117",
+                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/da8f6101ba14646be152ea99963e22c1d9887d6a",
+                "reference": "da8f6101ba14646be152ea99963e22c1d9887d6a",
                 "shasum": ""
             },
             "require": {
                 "douggonsouza/regexed": "dev-main"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -284,68 +279,20 @@
             "description": "Gerenciamento das rotas para a requisição",
             "support": {
                 "issues": "https://github.com/douggonsouza/routes/issues",
-                "source": "https://github.com/douggonsouza/routes/tree/v1.0.2"
+                "source": "https://github.com/douggonsouza/routes/tree/v1.0.5"
             },
-            "time": "2022-04-02T16:43:48+00:00"
-        },
-        {
-            "name": "douggonsouza/sentinel",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/douggonsouza/sentinel.git",
-                "reference": "e55f811731e59d5b54da1590866dfbdd8beeb92e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/sentinel/zipball/e55f811731e59d5b54da1590866dfbdd8beeb92e",
-                "reference": "e55f811731e59d5b54da1590866dfbdd8beeb92e",
-                "shasum": ""
-            },
-            "require": {
-                "douggonsouza/propertys": "dev-main"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Douggonsouza\\Sentinel\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Douglas Gonçalves de Souza",
-                    "email": "douggonsouza@gmail.com"
-                }
-            ],
-            "description": "Notificador quanto a alteração de estado",
-            "support": {
-                "issues": "https://github.com/douggonsouza/sentinel/issues",
-                "source": "https://github.com/douggonsouza/sentinel/tree/v1.0.2"
-            },
-            "time": "2022-03-28T20:45:31+00:00"
+            "time": "2022-08-02T00:39:07+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "douggonsouza/request": 20,
-        "douggonsouza/routes": 20,
-        "douggonsouza/pages": 20,
-        "douggonsouza/mvc": 20,
-        "douggonsouza/sentinel": 20,
-        "douggonsouza/benchmarck": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -1,6 +1,7 @@
 <?php
 
 use douggonsouza\request\routings;
+use douggonsouza\benchmarck\identify;
 
 // Adiciona routings
 routings::add('default',__DIR__ . '/routing.php');
