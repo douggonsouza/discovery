@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "d234b4b53c2144f4af534bb6e3ca1aa62b6f0f93"
+                "reference": "11f7860b36d0f26bd3e20c3a2876502c1ef8be2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/d234b4b53c2144f4af534bb6e3ca1aa62b6f0f93",
-                "reference": "d234b4b53c2144f4af534bb6e3ca1aa62b6f0f93",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/11f7860b36d0f26bd3e20c3a2876502c1ef8be2a",
+                "reference": "11f7860b36d0f26bd3e20c3a2876502c1ef8be2a",
                 "shasum": ""
             },
             "require": {
@@ -43,9 +43,9 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.9"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.10"
             },
-            "time": "2022-08-03T17:04:50+00:00"
+            "time": "2022-08-08T12:16:27+00:00"
         },
         {
             "name": "douggonsouza/language",
@@ -242,16 +242,16 @@
         },
         {
             "name": "douggonsouza/routes",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/routes.git",
-                "reference": "f9b01ca755bf499349bcc67e489570949167b399"
+                "reference": "4d763c1ed7ff0682a46ff3ae8f368d3e368d0d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/f9b01ca755bf499349bcc67e489570949167b399",
-                "reference": "f9b01ca755bf499349bcc67e489570949167b399",
+                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/4d763c1ed7ff0682a46ff3ae8f368d3e368d0d89",
+                "reference": "4d763c1ed7ff0682a46ff3ae8f368d3e368d0d89",
                 "shasum": ""
             },
             "require": {
@@ -276,9 +276,9 @@
             "description": "Gerenciamento das rotas para a requisição",
             "support": {
                 "issues": "https://github.com/douggonsouza/routes/issues",
-                "source": "https://github.com/douggonsouza/routes/tree/v1.0.6"
+                "source": "https://github.com/douggonsouza/routes/tree/v1.0.8"
             },
-            "time": "2022-08-03T16:38:31+00:00"
+            "time": "2022-08-08T12:25:00+00:00"
         }
     ],
     "packages-dev": [],
