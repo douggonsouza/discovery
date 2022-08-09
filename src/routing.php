@@ -15,7 +15,7 @@ conn::connection('localhost','douggonsouza','Ds@468677','discovery');
 //Adiciona configurações blocos benchmarck
 
 $identify = new identify();
-$identify::add('login', '/blocks/login/loginFrame.phtml', '\\discovery\\controls\\login:loginFrame');
+// $identify::add('login', '/blocks/login/loginFrame.phtml', '\\discovery\\controls\\login:loginFrame');
 $identify::add('defaultLayout', '/layouts/default.phtml');
 
 $identify::add('dashboard', '/layouts/dashboard.phtml');
@@ -57,6 +57,15 @@ $identify::add('dashboard2PageContentDataTableBlock', '/blocks/dashboard2PageCon
 $identify::add('dashboard2PageContentCopyrightBlock', '/blocks/dashboard2PageContentCopyrightBlock.phtml');
 $identify::add('dashboard2JsBlock', '/blocks/dashboard2JsBlock.phtml');
 
+$identify::add('login', '/layouts/login.phtml');
+$identify::add('loginCssBlock', '/blocks/loginCssBlock.phtml');
+$identify::add('loginJsBlock', '/blocks/loginJsBlock.phtml');
+$identify::add('loginPageContentBlock', '/blocks/loginPageContentBlock.phtml');
+
+$identify::add('register', '/layouts/register.phtml');
+$identify::add('registerCssBlock', '/blocks/registerCssBlock.phtml');
+$identify::add('registerJsBlock', '/blocks/registerJsBlock.phtml');
+$identify::add('registerPageContentBlock', '/blocks/registerPageContentBlock.phtml');
 
 /** roteamento da requisição */
 router::usages(requested::getUsages(), new propertys(array()));

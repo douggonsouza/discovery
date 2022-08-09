@@ -9,15 +9,12 @@ use douggonsouza\propertys\propertysInterface;
 
 class login extends act implements actInterface
 {
+    const PAGE_CONTENT = BASE_DIR . '/vendor/douggonsouza/benchmarck/src/blocks/dashboardPageContainerBlock.phtml';
 
     public function main(propertysInterface $info)
     {
-        return $this->identified('dashboard2', $info);
-    }
-
-    public function loginFrame(propertysInterface $info)
-    {
-        return $this->identified('login', $info);
+        // $this->setPage(self::PAGE_CONTENT);
+        return $this->identified('register', $info);
     }
 }
 ?>
