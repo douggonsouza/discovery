@@ -14,7 +14,7 @@ class login extends act implements actInterface
     public function main(propertysInterface $info)
     {
         // $this->setPage(self::PAGE_CONTENT);
-        return $this->identified('register', $info);
+        return $this->identified('forgetpass', $info);
     }
 }
 ?>

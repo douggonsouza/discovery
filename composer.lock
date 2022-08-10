@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.11",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "ba7cbe53dade480a5adb0897edc9b191bda3846f"
+                "reference": "6ec7624fe579e039b12f07e6e01222387147caa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/ba7cbe53dade480a5adb0897edc9b191bda3846f",
-                "reference": "ba7cbe53dade480a5adb0897edc9b191bda3846f",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/6ec7624fe579e039b12f07e6e01222387147caa6",
+                "reference": "6ec7624fe579e039b12f07e6e01222387147caa6",
                 "shasum": ""
             },
             "require": {
@@ -43,22 +43,22 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.11"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.12"
             },
-            "time": "2022-08-09T00:47:19+00:00"
+            "time": "2022-08-10T12:31:59+00:00"
         },
         {
             "name": "douggonsouza/language",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/language.git",
-                "reference": "fe361ddc095ece1ad7824db9c9a7671522b4cff0"
+                "reference": "b63647bc60d5a9cf13348bfcd17839b938b08120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/language/zipball/fe361ddc095ece1ad7824db9c9a7671522b4cff0",
-                "reference": "fe361ddc095ece1ad7824db9c9a7671522b4cff0",
+                "url": "https://api.github.com/repos/douggonsouza/language/zipball/b63647bc60d5a9cf13348bfcd17839b938b08120",
+                "reference": "b63647bc60d5a9cf13348bfcd17839b938b08120",
                 "shasum": ""
             },
             "type": "library",
@@ -80,9 +80,9 @@
             "description": "Expõe o valor da etiqueta para uma linguagem",
             "support": {
                 "issues": "https://github.com/douggonsouza/language/issues",
-                "source": "https://github.com/douggonsouza/language/tree/v1.0.3"
+                "source": "https://github.com/douggonsouza/language/tree/v1.0.4"
             },
-            "time": "2022-08-03T16:35:38+00:00"
+            "time": "2022-08-10T12:30:58+00:00"
         },
         {
             "name": "douggonsouza/mvc",
