@@ -24,6 +24,11 @@ $benchmarck = router::benchmarck(new benchmarck(new language(array(
 $benchmarck::setIdentify(new identify(DEFAULT_CONFIGS_BENCHMARCK));
 
 // roteamento da requisição
-router::routing('GET', '/', "\\discovery\\controls\\login");
-router::routing('GET', '/login', "\\discovery\\controls\\login");
+router::routing('GET', "/", "\\douggonsouza\\discovery\\controls\\login");
+router::routing('GET', "/login/", "\\douggonsouza\\discovery\\controls\\login");
+router::routing('POST', "/login/", "\\douggonsouza\\discovery\\controls\\login");
+router::routing('GET', "/register/", "\\douggonsouza\\discovery\\controls\\register");
+router::routing('POST', "/register/", "\\douggonsouza\\discovery\\controls\\register");
+router::routing('GET', "/admin/dashboard/", "\\douggonsouza\\discovery\\controls\\admin\\dashboard");
+router::exit('404');
 ?>

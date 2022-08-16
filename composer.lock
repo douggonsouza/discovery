@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "261164701c705d92dd7112f27c469b67",
+    "content-hash": "799a16f3bc296cdaeb2cbfe0097b0de4",
     "packages": [
+        {
+            "name": "douggonsouza/alerts",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/alerts.git",
+                "reference": "7e02c514bb764106279e0daa7775fafe5fa74076"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/alerts/zipball/7e02c514bb764106279e0daa7775fafe5fa74076",
+                "reference": "7e02c514bb764106279e0daa7775fafe5fa74076",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\alerts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Módulo de alertas do framework Heartwood",
+            "support": {
+                "issues": "https://github.com/douggonsouza/alerts/issues",
+                "source": "https://github.com/douggonsouza/alerts/tree/v1.0.4"
+            },
+            "time": "2022-08-15T20:36:30+00:00"
+        },
         {
             "name": "douggonsouza/benchmarck",
             "version": "v1.0.12",
@@ -83,6 +120,40 @@
                 "source": "https://github.com/douggonsouza/language/tree/v1.0.4"
             },
             "time": "2022-08-10T12:30:58+00:00"
+        },
+        {
+            "name": "douggonsouza/logged",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/logged.git",
+                "reference": "cd53f05cd341e0e0b8517ef26f9f0860a4c288b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/logged/zipball/cd53f05cd341e0e0b8517ef26f9f0860a4c288b8",
+                "reference": "cd53f05cd341e0e0b8517ef26f9f0860a4c288b8",
+                "shasum": ""
+            },
+            "require": {
+                "douggonsouza/propertys": "^1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\logged\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Loga e desloga usuário da sessão",
+            "support": {
+                "issues": "https://github.com/douggonsouza/logged/issues",
+                "source": "https://github.com/douggonsouza/logged/tree/v1.0.0"
+            },
+            "time": "2022-08-12T19:38:21+00:00"
         },
         {
             "name": "douggonsouza/mvc",
