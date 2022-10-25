@@ -19,10 +19,12 @@ class admin extends act implements actInterface
      */
     public function _before(propertysInterface $info = null)
     {
-        // valida se está logado
-        if(!logged::is()){
-            logged::out();
-            router::redirect('/login/');
+        if(!in_array('json', $info->PARAMSREQUEST[0])){
+            // valida se está logado
+            if(!logged::is()){
+                logged::out();
+                router::redirect('/login/');
+            }
         }
     }
 

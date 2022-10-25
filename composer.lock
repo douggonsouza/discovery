@@ -4,57 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "799a16f3bc296cdaeb2cbfe0097b0de4",
+    "content-hash": "9d91c67ffb2d9d68fbdbe1dffcc77d85",
     "packages": [
         {
-            "name": "douggonsouza/alerts",
-            "version": "v1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/douggonsouza/alerts.git",
-                "reference": "7e02c514bb764106279e0daa7775fafe5fa74076"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/alerts/zipball/7e02c514bb764106279e0daa7775fafe5fa74076",
-                "reference": "7e02c514bb764106279e0daa7775fafe5fa74076",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "douggonsouza\\alerts\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Douglas Gonçalves de Souza",
-                    "email": "douggonsouza@gmail.com"
-                }
-            ],
-            "description": "Módulo de alertas do framework Heartwood",
-            "support": {
-                "issues": "https://github.com/douggonsouza/alerts/issues",
-                "source": "https://github.com/douggonsouza/alerts/tree/v1.0.4"
-            },
-            "time": "2022-08-15T20:36:30+00:00"
-        },
-        {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.12",
+            "version": "v1.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "6ec7624fe579e039b12f07e6e01222387147caa6"
+                "reference": "943b98ba664269c888ad128a3ac5077717038259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/6ec7624fe579e039b12f07e6e01222387147caa6",
-                "reference": "6ec7624fe579e039b12f07e6e01222387147caa6",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/943b98ba664269c888ad128a3ac5077717038259",
+                "reference": "943b98ba664269c888ad128a3ac5077717038259",
                 "shasum": ""
             },
             "require": {
@@ -80,9 +43,46 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.12"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.17"
             },
-            "time": "2022-08-10T12:31:59+00:00"
+            "time": "2022-09-17T00:05:58+00:00"
+        },
+        {
+            "name": "douggonsouza/downloads",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/downloads.git",
+                "reference": "0924cce38390c1f8860b3af1b929f955d63f7e6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/downloads/zipball/0924cce38390c1f8860b3af1b929f955d63f7e6c",
+                "reference": "0924cce38390c1f8860b3af1b929f955d63f7e6c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\downloads\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas G. de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Auxílio no download de arquivos",
+            "support": {
+                "issues": "https://github.com/douggonsouza/downloads/issues",
+                "source": "https://github.com/douggonsouza/downloads/tree/v1.0.1"
+            },
+            "time": "2022-08-27T15:01:44+00:00"
         },
         {
             "name": "douggonsouza/language",
@@ -123,19 +123,20 @@
         },
         {
             "name": "douggonsouza/logged",
-            "version": "v1.0.0",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/logged.git",
-                "reference": "cd53f05cd341e0e0b8517ef26f9f0860a4c288b8"
+                "reference": "698dfde6907f8f269bb54e2ffdaa662290c31e4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/logged/zipball/cd53f05cd341e0e0b8517ef26f9f0860a4c288b8",
-                "reference": "cd53f05cd341e0e0b8517ef26f9f0860a4c288b8",
+                "url": "https://api.github.com/repos/douggonsouza/logged/zipball/698dfde6907f8f269bb54e2ffdaa662290c31e4f",
+                "reference": "698dfde6907f8f269bb54e2ffdaa662290c31e4f",
                 "shasum": ""
             },
             "require": {
+                "douggonsouza/mvc": "^1.0.0",
                 "douggonsouza/propertys": "^1.0.0"
             },
             "type": "library",
@@ -151,25 +152,26 @@
             "description": "Loga e desloga usuário da sessão",
             "support": {
                 "issues": "https://github.com/douggonsouza/logged/issues",
-                "source": "https://github.com/douggonsouza/logged/tree/v1.0.0"
+                "source": "https://github.com/douggonsouza/logged/tree/v1.0.4"
             },
-            "time": "2022-08-12T19:38:21+00:00"
+            "time": "2022-10-25T11:37:09+00:00"
         },
         {
             "name": "douggonsouza/mvc",
-            "version": "v1.0.5",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/mvc.git",
-                "reference": "09a32fdf551fc45b5619ac10328652ed67ba0005"
+                "reference": "889ecab5c3795caeb0ff179c493a94addf13d1fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/09a32fdf551fc45b5619ac10328652ed67ba0005",
-                "reference": "09a32fdf551fc45b5619ac10328652ed67ba0005",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/889ecab5c3795caeb0ff179c493a94addf13d1fa",
+                "reference": "889ecab5c3795caeb0ff179c493a94addf13d1fa",
                 "shasum": ""
             },
             "require": {
+                "douggonsouza/benchmarck": "^1.0.0",
                 "douggonsouza/propertys": "^1.0.0"
             },
             "type": "library",
@@ -191,22 +193,22 @@
             "description": "Processo de resposta tipo Model, View e Control",
             "support": {
                 "issues": "https://github.com/douggonsouza/mvc/issues",
-                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.5"
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.9"
             },
-            "time": "2022-08-09T00:48:05+00:00"
+            "time": "2022-10-25T11:31:30+00:00"
         },
         {
             "name": "douggonsouza/propertys",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/propertys.git",
-                "reference": "be8f49f5311e5818e9d534cc45ba0786f8df3319"
+                "reference": "ebd7471bf7279f2e2520c6b7eadfcf6171ab47cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/be8f49f5311e5818e9d534cc45ba0786f8df3319",
-                "reference": "be8f49f5311e5818e9d534cc45ba0786f8df3319",
+                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/ebd7471bf7279f2e2520c6b7eadfcf6171ab47cf",
+                "reference": "ebd7471bf7279f2e2520c6b7eadfcf6171ab47cf",
                 "shasum": ""
             },
             "type": "library",
@@ -228,25 +230,24 @@
             "description": "Armazenagem das propriedades",
             "support": {
                 "issues": "https://github.com/douggonsouza/propertys/issues",
-                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.3"
+                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.4"
             },
-            "time": "2022-04-17T02:10:09+00:00"
+            "time": "2022-09-16T23:56:11+00:00"
         },
         {
             "name": "douggonsouza/regexed",
-            "version": "dev-main",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/regexed.git",
-                "reference": "5af4c40a63eab90cdf753d74e8e21525ac27b1b6"
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/regexed/zipball/5af4c40a63eab90cdf753d74e8e21525ac27b1b6",
-                "reference": "5af4c40a63eab90cdf753d74e8e21525ac27b1b6",
+                "url": "https://api.github.com/repos/douggonsouza/regexed/zipball/1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -266,26 +267,26 @@
             "description": "Tradutor de palavras para expressões regex",
             "support": {
                 "issues": "https://github.com/douggonsouza/regexed/issues",
-                "source": "https://github.com/douggonsouza/regexed/tree/v1.0.2"
+                "source": "https://github.com/douggonsouza/regexed/tree/v1.0.3"
             },
-            "time": "2022-04-02T16:45:27+00:00"
+            "time": "2022-09-16T23:57:21+00:00"
         },
         {
             "name": "douggonsouza/request",
-            "version": "v1.0.7",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/request.git",
-                "reference": "8356e42cb89886d0f15672f77c18819044a3fca4"
+                "reference": "0dd5d392c473904ace891e9488640e92438f0acf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/request/zipball/8356e42cb89886d0f15672f77c18819044a3fca4",
-                "reference": "8356e42cb89886d0f15672f77c18819044a3fca4",
+                "url": "https://api.github.com/repos/douggonsouza/request/zipball/0dd5d392c473904ace891e9488640e92438f0acf",
+                "reference": "0dd5d392c473904ace891e9488640e92438f0acf",
                 "shasum": ""
             },
             "require": {
-                "douggonsouza/regexed": "dev-main",
+                "douggonsouza/regexed": "^1.0.0",
                 "php": "^7.2"
             },
             "type": "library",
@@ -307,26 +308,26 @@
             "description": "Tratamento da requisição e coleta de parâmetros para o roteamento",
             "support": {
                 "issues": "https://github.com/douggonsouza/request/issues",
-                "source": "https://github.com/douggonsouza/request/tree/v1.0.7"
+                "source": "https://github.com/douggonsouza/request/tree/v1.0.9"
             },
-            "time": "2022-04-15T15:39:57+00:00"
+            "time": "2022-10-25T11:28:45+00:00"
         },
         {
             "name": "douggonsouza/routes",
-            "version": "v1.0.9",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/routes.git",
-                "reference": "f533a264ffa03463ff8068a17cb97377b37c9e61"
+                "reference": "48f7443742e7435de29783c792d468c1a204f0c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/f533a264ffa03463ff8068a17cb97377b37c9e61",
-                "reference": "f533a264ffa03463ff8068a17cb97377b37c9e61",
+                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/48f7443742e7435de29783c792d468c1a204f0c7",
+                "reference": "48f7443742e7435de29783c792d468c1a204f0c7",
                 "shasum": ""
             },
             "require": {
-                "douggonsouza/regexed": "dev-main"
+                "douggonsouza/regexed": "^1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -347,9 +348,50 @@
             "description": "Gerenciamento das rotas para a requisição",
             "support": {
                 "issues": "https://github.com/douggonsouza/routes/issues",
-                "source": "https://github.com/douggonsouza/routes/tree/v1.0.9"
+                "source": "https://github.com/douggonsouza/routes/tree/v1.0.12"
             },
-            "time": "2022-08-09T00:48:38+00:00"
+            "time": "2022-10-25T11:26:53+00:00"
+        },
+        {
+            "name": "douggonsouza/yoursite",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/yoursite.git",
+                "reference": "70f73a7861773b87276a5a4e5f163e5b88f5dc56"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/yoursite/zipball/70f73a7861773b87276a5a4e5f163e5b88f5dc56",
+                "reference": "70f73a7861773b87276a5a4e5f163e5b88f5dc56",
+                "shasum": ""
+            },
+            "require": {
+                "douggonsouza/mvc": "^1.0.0",
+                "douggonsouza/propertys": "^1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\yoursite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Coleção de páginas do acesso",
+            "support": {
+                "issues": "https://github.com/douggonsouza/yoursite/issues",
+                "source": "https://github.com/douggonsouza/yoursite/tree/v1.0.0"
+            },
+            "time": "2022-09-18T16:07:54+00:00"
         }
     ],
     "packages-dev": [],
