@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d91c67ffb2d9d68fbdbe1dffcc77d85",
+    "content-hash": "5ce3d6e8ffcc111c0bf007ed62dc17ed",
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.17",
+            "version": "v1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "943b98ba664269c888ad128a3ac5077717038259"
+                "reference": "c9246f625848f913b5871b3a8cef9aa3fd9e9ca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/943b98ba664269c888ad128a3ac5077717038259",
-                "reference": "943b98ba664269c888ad128a3ac5077717038259",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/c9246f625848f913b5871b3a8cef9aa3fd9e9ca1",
+                "reference": "c9246f625848f913b5871b3a8cef9aa3fd9e9ca1",
                 "shasum": ""
             },
             "require": {
@@ -43,9 +43,9 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.17"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.18"
             },
-            "time": "2022-09-17T00:05:58+00:00"
+            "time": "2022-10-25T11:44:08+00:00"
         },
         {
             "name": "douggonsouza/downloads",
@@ -83,6 +83,80 @@
                 "source": "https://github.com/douggonsouza/downloads/tree/v1.0.1"
             },
             "time": "2022-08-27T15:01:44+00:00"
+        },
+        {
+            "name": "douggonsouza/etl",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/etl.git",
+                "reference": "f32cb806ca3bd339932e8a52dad0b20f97d9517e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/etl/zipball/f32cb806ca3bd339932e8a52dad0b20f97d9517e",
+                "reference": "f32cb806ca3bd339932e8a52dad0b20f97d9517e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\etl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Mit"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas G. de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Agendamento de processos sistêmicos",
+            "support": {
+                "issues": "https://github.com/douggonsouza/etl/issues",
+                "source": "https://github.com/douggonsouza/etl/tree/v1.0.0"
+            },
+            "time": "2022-12-15T11:12:34+00:00"
+        },
+        {
+            "name": "douggonsouza/html",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/html.git",
+                "reference": "229e4a574c72d5ef6e6b84deee30c4b78f7c5f4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/html/zipball/229e4a574c72d5ef6e6b84deee30c4b78f7c5f4b",
+                "reference": "229e4a574c72d5ef6e6b84deee30c4b78f7c5f4b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\html\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Preenchimento automático para página de marcação",
+            "support": {
+                "issues": "https://github.com/douggonsouza/html/issues",
+                "source": "https://github.com/douggonsouza/html/tree/v1.0.6"
+            },
+            "time": "2023-01-31T11:32:44+00:00"
         },
         {
             "name": "douggonsouza/language",
@@ -196,6 +270,43 @@
                 "source": "https://github.com/douggonsouza/mvc/tree/v1.0.9"
             },
             "time": "2022-10-25T11:31:30+00:00"
+        },
+        {
+            "name": "douggonsouza/permission",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/permission.git",
+                "reference": "c2a191360d4267bace5dcf32d693d20b646c8e30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/c2a191360d4267bace5dcf32d693d20b646c8e30",
+                "reference": "c2a191360d4267bace5dcf32d693d20b646c8e30",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\permission\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dougla G. de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Coleção de permissões para papeis de usuários",
+            "support": {
+                "issues": "https://github.com/douggonsouza/permission/issues",
+                "source": "https://github.com/douggonsouza/permission/tree/v1.0.1"
+            },
+            "time": "2023-02-10T12:25:35+00:00"
         },
         {
             "name": "douggonsouza/propertys",

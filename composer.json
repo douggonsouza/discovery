@@ -18,7 +18,10 @@
         "douggonsouza/benchmarck": "^1.0.0",
         "douggonsouza/logged": "^1.0.0",
         "douggonsouza/downloads": "^1.0.0",
-        "douggonsouza/yoursite": "^1.0.0"
+        "douggonsouza/yoursite": "^1.0.0",
+        "douggonsouza/etl": "^1",
+        "douggonsouza/html": "^1.0.0",
+        "douggonsouza/permission": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
