@@ -123,16 +123,16 @@
         },
         {
             "name": "douggonsouza/html",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/html.git",
-                "reference": "229e4a574c72d5ef6e6b84deee30c4b78f7c5f4b"
+                "reference": "8904d929d52ccf62446b9a5971e82953f9bf4c23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/html/zipball/229e4a574c72d5ef6e6b84deee30c4b78f7c5f4b",
-                "reference": "229e4a574c72d5ef6e6b84deee30c4b78f7c5f4b",
+                "url": "https://api.github.com/repos/douggonsouza/html/zipball/8904d929d52ccf62446b9a5971e82953f9bf4c23",
+                "reference": "8904d929d52ccf62446b9a5971e82953f9bf4c23",
                 "shasum": ""
             },
             "type": "library",
@@ -154,9 +154,9 @@
             "description": "Preenchimento automático para página de marcação",
             "support": {
                 "issues": "https://github.com/douggonsouza/html/issues",
-                "source": "https://github.com/douggonsouza/html/tree/v1.0.6"
+                "source": "https://github.com/douggonsouza/html/tree/v1.0.8"
             },
-            "time": "2023-01-31T11:32:44+00:00"
+            "time": "2023-02-10T15:48:20+00:00"
         },
         {
             "name": "douggonsouza/language",
@@ -232,16 +232,16 @@
         },
         {
             "name": "douggonsouza/mvc",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/mvc.git",
-                "reference": "889ecab5c3795caeb0ff179c493a94addf13d1fa"
+                "reference": "1881cc56852c4ef8d7e8ff30a5be5180176939b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/889ecab5c3795caeb0ff179c493a94addf13d1fa",
-                "reference": "889ecab5c3795caeb0ff179c493a94addf13d1fa",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/1881cc56852c4ef8d7e8ff30a5be5180176939b4",
+                "reference": "1881cc56852c4ef8d7e8ff30a5be5180176939b4",
                 "shasum": ""
             },
             "require": {
@@ -267,22 +267,22 @@
             "description": "Processo de resposta tipo Model, View e Control",
             "support": {
                 "issues": "https://github.com/douggonsouza/mvc/issues",
-                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.9"
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.10"
             },
-            "time": "2022-10-25T11:31:30+00:00"
+            "time": "2023-02-10T15:51:47+00:00"
         },
         {
             "name": "douggonsouza/permission",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/permission.git",
-                "reference": "c2a191360d4267bace5dcf32d693d20b646c8e30"
+                "reference": "5251a7e31b8021f9e09a236cdd1bd049dd54a96c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/c2a191360d4267bace5dcf32d693d20b646c8e30",
-                "reference": "c2a191360d4267bace5dcf32d693d20b646c8e30",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/5251a7e31b8021f9e09a236cdd1bd049dd54a96c",
+                "reference": "5251a7e31b8021f9e09a236cdd1bd049dd54a96c",
                 "shasum": ""
             },
             "type": "library",
@@ -304,9 +304,9 @@
             "description": "Coleção de permissões para papeis de usuários",
             "support": {
                 "issues": "https://github.com/douggonsouza/permission/issues",
-                "source": "https://github.com/douggonsouza/permission/tree/v1.0.1"
+                "source": "https://github.com/douggonsouza/permission/tree/v1.0.2"
             },
-            "time": "2023-02-10T12:25:35+00:00"
+            "time": "2023-02-10T22:41:12+00:00"
         },
         {
             "name": "douggonsouza/propertys",
