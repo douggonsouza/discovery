@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.18",
+            "version": "v1.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "c9246f625848f913b5871b3a8cef9aa3fd9e9ca1"
+                "reference": "115c1958fba2e3f4d204fb06c49c729f92343ed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/c9246f625848f913b5871b3a8cef9aa3fd9e9ca1",
-                "reference": "c9246f625848f913b5871b3a8cef9aa3fd9e9ca1",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/115c1958fba2e3f4d204fb06c49c729f92343ed8",
+                "reference": "115c1958fba2e3f4d204fb06c49c729f92343ed8",
                 "shasum": ""
             },
             "require": {
@@ -43,9 +43,9 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.18"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.19"
             },
-            "time": "2022-10-25T11:44:08+00:00"
+            "time": "2023-02-13T12:18:25+00:00"
         },
         {
             "name": "douggonsouza/downloads",
@@ -384,16 +384,16 @@
         },
         {
             "name": "douggonsouza/request",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/request.git",
-                "reference": "0dd5d392c473904ace891e9488640e92438f0acf"
+                "reference": "03535c845867832d4265446833eaf211f53d2540"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/request/zipball/0dd5d392c473904ace891e9488640e92438f0acf",
-                "reference": "0dd5d392c473904ace891e9488640e92438f0acf",
+                "url": "https://api.github.com/repos/douggonsouza/request/zipball/03535c845867832d4265446833eaf211f53d2540",
+                "reference": "03535c845867832d4265446833eaf211f53d2540",
                 "shasum": ""
             },
             "require": {
@@ -419,22 +419,22 @@
             "description": "Tratamento da requisição e coleta de parâmetros para o roteamento",
             "support": {
                 "issues": "https://github.com/douggonsouza/request/issues",
-                "source": "https://github.com/douggonsouza/request/tree/v1.0.9"
+                "source": "https://github.com/douggonsouza/request/tree/v1.0.10"
             },
-            "time": "2022-10-25T11:28:45+00:00"
+            "time": "2023-02-13T12:11:10+00:00"
         },
         {
             "name": "douggonsouza/routes",
-            "version": "v1.0.12",
+            "version": "v1.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/routes.git",
-                "reference": "48f7443742e7435de29783c792d468c1a204f0c7"
+                "reference": "d1f337b566377a109fb89f25364be27ab5319475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/48f7443742e7435de29783c792d468c1a204f0c7",
-                "reference": "48f7443742e7435de29783c792d468c1a204f0c7",
+                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/d1f337b566377a109fb89f25364be27ab5319475",
+                "reference": "d1f337b566377a109fb89f25364be27ab5319475",
                 "shasum": ""
             },
             "require": {
@@ -459,9 +459,9 @@
             "description": "Gerenciamento das rotas para a requisição",
             "support": {
                 "issues": "https://github.com/douggonsouza/routes/issues",
-                "source": "https://github.com/douggonsouza/routes/tree/v1.0.12"
+                "source": "https://github.com/douggonsouza/routes/tree/v1.0.13"
             },
-            "time": "2022-10-25T11:26:53+00:00"
+            "time": "2023-02-13T12:09:33+00:00"
         },
         {
             "name": "douggonsouza/yoursite",
