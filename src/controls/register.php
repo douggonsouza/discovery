@@ -3,13 +3,13 @@
 namespace douggonsouza\discovery\controls;
 
 use douggonsouza\routes\router;
-use douggonsouza\mvc\control\act;
+use douggonsouza\mvc\control\controllers;
 use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
 use douggonsouza\logged\models\user;
 use douggonsouza\benchmarck\benchmarck;
 
-class register extends act implements actInterface
+class register extends controllers implements actInterface
 {
     protected $layout = 'register';
 

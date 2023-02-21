@@ -1,0 +1,83 @@
+<?php
+    use douggonsouza\routes\router;
+    use douggonsouza\benchmarck\assets\assets;
+    use douggonsouza\logged\models\user;
+    use douggonsouza\logged\logged;
+    use douggonsouza\permission\permission;
+
+    $user = new user((int) logged::getId());
+    $perfil = $user->perfil();
+    $avatar = "/images/icon/avatar-big-01.jpg";
+    $name = $user->getField('name');
+    $lastName = $user->lastName();
+
+    // views permissions
+    $views = permission::permissions()->pages($perfil['paper_id']);
+?>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="<?= router::assets("/images/icon/logo-white.png", assets::ABSOLUTE_URL) ?>" alt="Cool Admin" />
+                        </a>
+                    </div>
+                    <div class="menu-sidebar2__content js-scrollbar2">
+                        <div class="account2">
+                            <div class="image img-cir img-120">
+                                <img src="<?= router::assets($avatar, assets::ABSOLUTE_URL) ?>" alt="<?= $name; ?>" />
+                            </div>
+                            <h4 class="name"><?= $lastName; ?></h4>
+                            <a href="#">Sign out</a>
+                        </div>
+                        <nav class="navbar-sidebar2">
+
+                            <!-- BLOCO -->
+                            <!-- dashboard1PageContainerBlock -->
+                            <!-- MENU NAVBAR 2 -->
+
+                            <?php
+                                if(isset($views)){
+                            ?>
+                            <ul class="nav flex-column flex-nowrap overflow-hidden">
+                            <?php
+                                $mnName = null;
+                                foreach($views as $view){
+                                    $li = '';
+                                    if($view['mn_name'] != $mnName && $mnName != null){
+                                        $li = '
+                                        <\ul>
+                                    <\div>
+                                </li>
+                                <li class="nav-item has-sub">
+                                    <a class="nav-link collapsed text-truncate" href="#submenu' . $view['sequence_id'] . '" data-toggle="collapse" data-target="#submenu' . $view['sequence_id'] . '"><i class="' . $view['mn_icon'] . '"></i> <span class="d-none d-sm-inline">' . router::label($view['mn_name']) . '</span></a>
+                                    <div class="collapse" id="submenu' . $view['sequence_id'] . '" aria-expanded="false">
+                                        <ul class="flex-column pl-2">';
+                                    }
+                                    if($mnName == null){
+                                        $li = '
+                            <li class="nav-item has-sub">
+                                <a class="nav-link collapsed text-truncate" href="#submenu' . $view['sequence_id'] . '" data-toggle="collapse" data-target="#submenu' . $view['sequence_id'] . '"><i class="' . $view['mn_icon'] . '"></i> <span class="d-none d-sm-inline">' . router::label($view['mn_name']) . '</span></a>
+                                <div class="collapse" id="submenu' . $view['sequence_id'] . '" aria-expanded="false">
+                                    <ul class="flex-column pl-2">';
+                                    } 
+                                    echo($li);                  
+                                    echo('
+                                            <li class="nav-item">
+                                                <a class="nav-link p-1 text-truncate" href="'. router::getUsages()->getHost(). $view['url'] . '">' . router::label($view['p_name']) . '</a>
+                                            </li>
+                                    ');
+                                    $mnName = $view['mn_name'];
+                                }
+                                echo('
+                                        </ul>
+                                    </div>
+                                </li>
+                                ');
+                                ?>
+                            </ul>
+                            <?php
+                                }
+                            ?>
+
+                            <!-- BLOCO -->
+
+                        </nav>
+                    </div>

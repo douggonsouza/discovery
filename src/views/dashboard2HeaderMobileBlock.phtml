@@ -1,0 +1,81 @@
+<?php
+    use douggonsouza\routes\router;
+    use douggonsouza\benchmarck\assets\assets;
+    use douggonsouza\logged\logged;
+    use douggonsouza\logged\models\user;
+    use douggonsouza\permission\permission;
+
+    $user = new user((int) logged::getId());
+    $perfil = $user->perfil();
+    $avatar = "/images/icon/avatar-big-01.jpg";
+    $name = $user->getField('name');
+    $lastName = $user->lastName();
+
+    // views permissions
+    $views = permission::permissions()::pages((int) $perfil['paper_id']);
+?>
+            <header class="header-mobile header-mobile-2 d-block d-lg-none">
+                <div class="header-mobile__bar">
+                    <div class="container-fluid">
+                        <div class="header-mobile-inner">
+                            <a class="logo" href="index.html">
+                                <img src="<?= router::assets("/images/icon/logo-white.png", assets::ABSOLUTE_URL) ?>" alt="DouggS" />
+                            </a>
+                            <button class="hamburger hamburger--slider" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar-mobile">
+                    <div class="container-fluid">
+                        <?php
+                            if(isset($views)){
+                        ?>
+                        <ul class="navbar-mobile__list list-unstyled">
+                            <?php
+                                $mnName = null;
+                                foreach($views as $view){
+                                    $li = '';
+                                    if($view['mn_name'] != $mnName && $mnName != null){
+                                        $li = '
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a class="js-arrow" href="#">
+                                    <i class="fas '. $view['mn_icon'] . '"></i>'. router::label($view['mn_name']) .'
+                                </a>
+                                <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                        ';
+                                    }
+                                    if($mnName == null){
+                                        $li = '
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas '. $view['mn_icon'] . '"></i>'. router::label($view['mn_name']) .'
+                            </a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                ';
+                                    }
+                                    echo($li);
+                                    echo('
+                                    <li>
+                                        <a href="' . router::getUsages()->getHost() . $view['url'] . '">' . router::label($view['p_name']) . '</a>
+                                    </li>
+                                ');
+                                $mnName = $view['mn_name'];
+                                }
+                                echo('
+                                </ul>
+                            </li>
+                                    ');
+                            ?>
+                        </ul>
+                        <?php
+                            }
+                        ?>
+                    </div>
+                </nav>
+            </header>

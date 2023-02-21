@@ -3,12 +3,12 @@
 namespace douggonsouza\discovery\controls\admin;
 
 use douggonsouza\routes\router;
-use douggonsouza\mvc\control\act;
-use douggonsouza\mvc\control\actInterface;
+use douggonsouza\mvc\control\controllers;
+use douggonsouza\mvc\control\controllersInterface;
 use douggonsouza\propertys\propertysInterface;
 use douggonsouza\logged\logged;
 
-class admin extends act implements actInterface
+class admin extends controllers implements controllersInterface
 {
     
     /**

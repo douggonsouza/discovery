@@ -2,16 +2,12 @@
 
 namespace douggonsouza\discovery\controls\admin;
 
-use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
 use douggonsouza\discovery\controls\admin\admin;
-use douggonsouza\benchmarck\benchmarck;
-use douggonsouza\downloads\downloads;
-use douggonsouza\mvc\control\controllers;
 use douggonsouza\mvc\control\controllersInterface;
 
 // class dashboard extends admin implements actInterface
-class dashboard extends controllers implements controllersInterface
+class dashboard extends admin implements controllersInterface
 {    
     /**
      * Method __construct
@@ -20,9 +16,9 @@ class dashboard extends controllers implements controllersInterface
      */
     public function __construct()
     {
-        self::setLayout('dashboard');
+        // self::setLayout('dashboard');
         // self::setLayout('dashboard1');
-        // self::setLayout('dashboard2');
+        self::setLayout('dashboard2');
         // self::setLayout('dashboard3');
     }
 

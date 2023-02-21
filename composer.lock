@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/benchmarck",
-            "version": "v1.0.19",
+            "version": "v1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/benchmarck.git",
-                "reference": "115c1958fba2e3f4d204fb06c49c729f92343ed8"
+                "reference": "d4baf5eb5484645b41a8b76a32030de74ab9c6c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/115c1958fba2e3f4d204fb06c49c729f92343ed8",
-                "reference": "115c1958fba2e3f4d204fb06c49c729f92343ed8",
+                "url": "https://api.github.com/repos/douggonsouza/benchmarck/zipball/d4baf5eb5484645b41a8b76a32030de74ab9c6c1",
+                "reference": "d4baf5eb5484645b41a8b76a32030de74ab9c6c1",
                 "shasum": ""
             },
             "require": {
@@ -43,9 +43,9 @@
             "description": "Páginas de referência",
             "support": {
                 "issues": "https://github.com/douggonsouza/benchmarck/issues",
-                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.19"
+                "source": "https://github.com/douggonsouza/benchmarck/tree/v1.0.21"
             },
-            "time": "2023-02-13T12:18:25+00:00"
+            "time": "2023-02-21T23:29:11+00:00"
         },
         {
             "name": "douggonsouza/downloads",
@@ -160,16 +160,16 @@
         },
         {
             "name": "douggonsouza/language",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/language.git",
-                "reference": "b63647bc60d5a9cf13348bfcd17839b938b08120"
+                "reference": "a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/language/zipball/b63647bc60d5a9cf13348bfcd17839b938b08120",
-                "reference": "b63647bc60d5a9cf13348bfcd17839b938b08120",
+                "url": "https://api.github.com/repos/douggonsouza/language/zipball/a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856",
+                "reference": "a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856",
                 "shasum": ""
             },
             "type": "library",
@@ -191,26 +191,25 @@
             "description": "Expõe o valor da etiqueta para uma linguagem",
             "support": {
                 "issues": "https://github.com/douggonsouza/language/issues",
-                "source": "https://github.com/douggonsouza/language/tree/v1.0.4"
+                "source": "https://github.com/douggonsouza/language/tree/v1.0.5"
             },
-            "time": "2022-08-10T12:30:58+00:00"
+            "time": "2023-02-21T23:10:12+00:00"
         },
         {
             "name": "douggonsouza/logged",
-            "version": "v1.0.4",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/logged.git",
-                "reference": "698dfde6907f8f269bb54e2ffdaa662290c31e4f"
+                "reference": "461202c7a647fd1ab9d477aac63e735e2355c4c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/logged/zipball/698dfde6907f8f269bb54e2ffdaa662290c31e4f",
-                "reference": "698dfde6907f8f269bb54e2ffdaa662290c31e4f",
+                "url": "https://api.github.com/repos/douggonsouza/logged/zipball/461202c7a647fd1ab9d477aac63e735e2355c4c6",
+                "reference": "461202c7a647fd1ab9d477aac63e735e2355c4c6",
                 "shasum": ""
             },
             "require": {
-                "douggonsouza/mvc": "^1.0.0",
                 "douggonsouza/propertys": "^1.0.0"
             },
             "type": "library",
@@ -226,26 +225,25 @@
             "description": "Loga e desloga usuário da sessão",
             "support": {
                 "issues": "https://github.com/douggonsouza/logged/issues",
-                "source": "https://github.com/douggonsouza/logged/tree/v1.0.4"
+                "source": "https://github.com/douggonsouza/logged/tree/v1.0.6"
             },
-            "time": "2022-10-25T11:37:09+00:00"
+            "time": "2023-02-21T23:36:08+00:00"
         },
         {
             "name": "douggonsouza/mvc",
-            "version": "v1.0.10",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/mvc.git",
-                "reference": "1881cc56852c4ef8d7e8ff30a5be5180176939b4"
+                "reference": "43d9b45da19d8c0db54cb3e84718e512d7dea5e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/1881cc56852c4ef8d7e8ff30a5be5180176939b4",
-                "reference": "1881cc56852c4ef8d7e8ff30a5be5180176939b4",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/43d9b45da19d8c0db54cb3e84718e512d7dea5e8",
+                "reference": "43d9b45da19d8c0db54cb3e84718e512d7dea5e8",
                 "shasum": ""
             },
             "require": {
-                "douggonsouza/benchmarck": "^1.0.0",
                 "douggonsouza/propertys": "^1.0.0"
             },
             "type": "library",
@@ -267,22 +265,22 @@
             "description": "Processo de resposta tipo Model, View e Control",
             "support": {
                 "issues": "https://github.com/douggonsouza/mvc/issues",
-                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.10"
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.12"
             },
-            "time": "2023-02-10T15:51:47+00:00"
+            "time": "2023-02-21T23:43:20+00:00"
         },
         {
             "name": "douggonsouza/permission",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/permission.git",
-                "reference": "5251a7e31b8021f9e09a236cdd1bd049dd54a96c"
+                "reference": "3d6511704976e73d01e5f9b04da4d23420132f67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/5251a7e31b8021f9e09a236cdd1bd049dd54a96c",
-                "reference": "5251a7e31b8021f9e09a236cdd1bd049dd54a96c",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/3d6511704976e73d01e5f9b04da4d23420132f67",
+                "reference": "3d6511704976e73d01e5f9b04da4d23420132f67",
                 "shasum": ""
             },
             "type": "library",
@@ -304,9 +302,9 @@
             "description": "Coleção de permissões para papeis de usuários",
             "support": {
                 "issues": "https://github.com/douggonsouza/permission/issues",
-                "source": "https://github.com/douggonsouza/permission/tree/v1.0.2"
+                "source": "https://github.com/douggonsouza/permission/tree/v1.0.3"
             },
-            "time": "2023-02-10T22:41:12+00:00"
+            "time": "2023-02-21T23:19:41+00:00"
         },
         {
             "name": "douggonsouza/propertys",
