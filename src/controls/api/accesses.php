@@ -20,7 +20,7 @@ class accesses extends act implements actInterface
      * @param  propertysInterface $info
      * @return void
      */
-    public function main(propertysInterface $info)
+    public function main(propertysInterface $info = null)
     {
         $this->setPage(self::PAGE_CONTENT);
 

@@ -3,6 +3,7 @@
 namespace douggonsouza\discovery\controls;
 
 use douggonsouza\mvc\control\controllers;
+use douggonsouza\mvc\control\controllersInterface;
 use douggonsouza\routes\router;
 use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
@@ -11,11 +12,11 @@ use douggonsouza\logged\logged;
 use douggonsouza\benchmarck\benchmarck;
 use douggonsouza\mvc\view\views;
 
-class login extends controllers implements actInterface
+class login extends controllers implements controllersInterface
 {
-    protected $identifyLayout = 'login';
+    // protected $identifyLayout = 'login';
 
-    public function main(propertysInterface $info)
+    public function main(propertysInterface $info = null)
     {
         if(isset($info->POST) && $info->POST['pub_key'] == 'bG9naW5fZm9ybQ=='){
             $user = new user(array(
@@ -24,7 +25,7 @@ class login extends controllers implements actInterface
             ));
             if(!$user->exist()){
                 router::alerts()::set('Não encontrado usuário para a senha.', benchmarck::BADGE_DANGER); 
-                return $this->identified('', $info, $this->identifyLayout);
+                return views::view('', $info, 'login');
             }
 
             if(!logged::in($user->info())){
@@ -35,7 +36,7 @@ class login extends controllers implements actInterface
             return router::redirect("/admin/dashboard", $info);
         }
 
-        return $this->identified('', $info, $this->identifyLayout);
+        return views::view('', $info, 'login');
     }
 }
 ?>

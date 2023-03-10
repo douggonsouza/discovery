@@ -5,14 +5,17 @@ use douggonsouza\benchmarck\identify;
 use douggonsouza\routes\router;
 use douggonsouza\request\requested;
 use douggonsouza\routes\dicionary;
-use douggonsouza\propertys\propertys;
 use douggonsouza\mvc\model\connection\conn;
 use douggonsouza\benchmarck\benchmarck;
 use douggonsouza\language\language;
 use douggonsouza\request\usages;
 
+// constantes globais
 define('DEFAULT_LANGUAGE', BASE_DIR . '/vendor/douggonsouza/benchmarck/src/languages/pt-br.php');
 define('DEFAULT_CONFIGS_BENCHMARCK', BASE_DIR . '/vendor/douggonsouza/benchmarck/src/configs.php');
+
+// include templates
+include __DIR__. '/templates.php';
 
 // Adiciona routings
 routings::add('default',__DIR__ . '/routing.php');

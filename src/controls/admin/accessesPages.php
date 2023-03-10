@@ -18,7 +18,7 @@ class accessesPages extends admin implements actInterface
      * @param  propertysInterface $info
      * @return void
      */
-    public function main(propertysInterface $info)
+    public function main(propertysInterface $info = null)
     {
         if(isset($info->POST) && $info->POST['pub_key'] == 'UMOhZ2luYXMgRG8gQWNlc3Nv'){
             // desativa todas as linhas para o acesso

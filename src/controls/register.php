@@ -4,16 +4,16 @@ namespace douggonsouza\discovery\controls;
 
 use douggonsouza\routes\router;
 use douggonsouza\mvc\control\controllers;
-use douggonsouza\mvc\control\actInterface;
+use douggonsouza\mvc\control\controllersInterface;
 use douggonsouza\propertys\propertysInterface;
 use douggonsouza\logged\models\user;
 use douggonsouza\benchmarck\benchmarck;
 
-class register extends controllers implements actInterface
+class register extends controllers implements controllersInterface
 {
     protected $layout = 'register';
 
-    public function main(propertysInterface $info)
+    public function main(propertysInterface $info = null)
     {
         if(isset($info->POST) && $info->POST['pub_key'] == 'cmVnaXN0ZXJfZm9ybQ=='){
             $user = new user();

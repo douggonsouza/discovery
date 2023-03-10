@@ -19,7 +19,7 @@ class pages extends admin implements actInterface
      * @param  propertysInterface $info
      * @return void
      */
-    public function main(propertysInterface $info)
+    public function main(propertysInterface $info = null)
     {
         if(isset($info->POST) && $info->POST['pub_key'] == 'UmVnaXN0cmFyIFDDoWdpbmE='){
             $page = new page();

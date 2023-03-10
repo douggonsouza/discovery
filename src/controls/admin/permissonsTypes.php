@@ -13,7 +13,7 @@ class permissionsTypes extends admin implements actInterface
 {
     protected $layout = 'dashboard1';
 
-    public function main(propertysInterface $info)
+    public function main(propertysInterface $info = null)
     {
         return $this->identified('dashboard1PageContainerMenuBlock', $info);
     }

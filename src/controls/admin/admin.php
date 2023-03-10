@@ -10,7 +10,6 @@ use douggonsouza\logged\logged;
 
 class admin extends controllers implements controllersInterface
 {
-    
     /**
      * _before - Evento que antecede o carregamento da Main
      *
@@ -26,11 +25,6 @@ class admin extends controllers implements controllersInterface
                 router::redirect('/login/');
             }
         }
-    }
-
-    public function main(propertysInterface $info)
-    {
-        return $this->identified('dashboard2', $info);
     }
 }
 ?>
