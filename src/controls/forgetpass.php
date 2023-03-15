@@ -2,17 +2,13 @@
 
 namespace douggonsouza\discovery\controls;
 
-use douggonsouza\routes\router;
 use douggonsouza\mvc\control\controllers;
 use douggonsouza\mvc\control\controllersInterface;
 use douggonsouza\propertys\propertysInterface;
-use douggonsouza\logged\models\user;
-use douggonsouza\benchmarck\benchmarck;
+use douggonsouza\mvc\view\views;
 
 class forgetpass extends controllers implements controllersInterface
 {
-    protected $layout = 'forgetpass';
-
     public function main(propertysInterface $info = null)
     {
         // if(isset($info->POST) && $info->POST['pub_key'] == 'cmVnaXN0ZXJfZm9ybQ=='){
@@ -27,7 +23,7 @@ class forgetpass extends controllers implements controllersInterface
         //     router::alerts()::set('Erro no login do usuário.', benchmarck::BADGE_DANGER);
         // }
 
-        return $this->identified('', $info);
+        return views::view(null, $info);
     }
 }
 ?>

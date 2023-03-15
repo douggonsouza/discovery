@@ -3,92 +3,72 @@
 use douggonsouza\routes\router;
 use douggonsouza\discovery\controls\admin\dashboard;
 use douggonsouza\permission\controls\permissions;
+use douggonsouza\discovery\controls\login;
+use douggonsouza\discovery\controls\register;
+use douggonsouza\discovery\controls\forgetpass;
 
-// roteamento da requisição
+use douggonsouza\discovery\controls\admin\accesses;
+
 router::routing(
     'GET', 
     "/", 
-    "\\douggonsouza\\discovery\\controls\\login"
+    new login('login', null)
 );
-
 router::routing(
     'POST', 
     "/", 
-    "\\douggonsouza\\discovery\\controls\\login"
+    new login('login', null)
 );
-
 router::routing(
     'GET', 
     "/login", 
-    "\\douggonsouza\\discovery\\controls\\login"
+    new login('login', null)
 );
-
 router::routing(
     'POST', 
     "/login", 
-    "\\douggonsouza\\discovery\\controls\\login"
+    new login('login', null)
 );
-
 router::routing(
     'GET', 
     "/register", 
-    "\\douggonsouza\\discovery\\controls\\register"
+    new register('register', null)
 );
-
 router::routing(
     'POST', 
     "/register", 
-    "\\douggonsouza\\discovery\\controls\\register"
+    new register('register', null)
 );
-
 router::routing(
     'GET', 
     "/forgetpass", 
-    "\\douggonsouza\\discovery\\controls\\forgetpass"
+    new forgetpass('forgetpass', null)
 );
-
-router::control(
+router::routing(
     'GET', 
     "/admin/dashboard", 
-    new dashboard(PAGE_DASHBOARD2,'dashboard2')
+    new dashboard('dashboard2', PAGE_DASHBOARD2)
 );
-
-router::control(
+router::routing(
     'POST', 
     "/admin/dashboard", 
     new dashboard(PAGE_DASHBOARD2,'dashboard2')
 );
-
-router::control(
+router::routing(
     'GET', 
     "/admin/permission", 
-    new permissions(PAGE_PERMISSION,'dashboard2')
+    new permissions('dashboard2', PAGE_PERMISSION)
 );
-
-router::control(
+router::routing(
     'POST', 
     "/admin/permission", 
-    new permissions(PAGE_PERMISSION,'dashboard2')
+    new permissions('dashboard2', PAGE_PERMISSION)
 );
-
-// router::path(
-//     'GET', 
-//     "/admin/permission", 
-//     "\\douggonsouza\\permission\\controls\\permissions", 
-//     PERMISSION
-// );
-
-// router::path(
-//     'POST', 
-//     "/admin/permission", 
-//     "\\douggonsouza\\permission\\controls\\permissions", 
-//     PERMISSION
-// );
-
 router::routing(
     'POST', 
     "/api/pagesofaccess/_number/json", 
-    "\\douggonsouza\\discovery\\controls\\admin\\accesses:pagesOfAccess"
+    new accesses('dashboard',null),
+    'pagesOfAccess'
 );
 
 router::end('404');

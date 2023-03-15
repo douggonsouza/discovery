@@ -2,17 +2,14 @@
 
 namespace douggonsouza\discovery\controls\admin;
 
-use douggonsouza\mvc\control\actInterface;
-use douggonsouza\propertys\propertysInterface;
 use douggonsouza\discovery\controls\admin\admin;
+use douggonsouza\propertys\propertysInterface;
+use douggonsouza\mvc\control\controllersInterface;
+use douggonsouza\mvc\view\views;
 use douggonsouza\discovery\models\accessPage;
-use douggonsouza\benchmarck\benchmarck;
-use douggonsouza\routes\router;
 
-class accesses extends admin implements actInterface
-{   
-    protected $layout = 'dashboard';
-
+class accesses extends admin implements controllersInterface
+{
     /**
      * main - Method default
      *
@@ -25,7 +22,7 @@ class accesses extends admin implements actInterface
         
         }
 
-        return $this->identified('dashboardPageContainerMainContentAccessesPagesBlock', $info);
+        return views::view('dashboardPageContainerMainContentAccessesPagesBlock', $info);
     }
 
     /**
@@ -48,7 +45,7 @@ class accesses extends admin implements actInterface
             $params = $pages;
         }
 
-        return $this->json($params);
+        return views::json($params);
     }
 }
 ?>

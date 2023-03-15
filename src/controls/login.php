@@ -5,7 +5,6 @@ namespace douggonsouza\discovery\controls;
 use douggonsouza\mvc\control\controllers;
 use douggonsouza\mvc\control\controllersInterface;
 use douggonsouza\routes\router;
-use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
 use douggonsouza\logged\models\user;
 use douggonsouza\logged\logged;
